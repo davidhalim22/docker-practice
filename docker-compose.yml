@@ -1,8 +1,8 @@
 services:
   web:
-    image: nextjs-week10-app:local
+    image: docker-practice:local
 
-    container_name: nextjs-week10-container
+    container_name: docker-practice-container
 
     ports:
       - "3000:3000"
